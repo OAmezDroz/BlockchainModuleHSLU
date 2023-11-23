@@ -1,0 +1,4 @@
+npm install web3
+npm install -g http-server
+
+http-server

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelTrust Booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>TravelTrust Room Booking</h1>
+    <button id="connectWalletButton">Connect to MetaMask</button>
+    <div id="content" style="display:none;">
+        <h2>Create Offer</h2>
+        <input type="text" id="description" placeholder="Description">
+        <input type="text" id="price" placeholder="Price in ETH">
+        <button id="createOfferButton">Create Offer</button>
+
+        <h2>Offers</h2>
+        <ul id="offersList"></ul>
+    </div>
+
+    <script src="./node_modules/web3/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
